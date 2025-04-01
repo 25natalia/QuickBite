@@ -2,6 +2,7 @@ export const recipes = [
 	{
 		id: 1,
 		recipe_name: 'Scrambled Eggs with Avocado',
+		img: 'https://delightfullylowcarb.com/wp-content/uploads/2020/01/avocado-scrambled-eggs.jpg',
 		classification: 'Breakfast',
 		ingredients: [
 			{ name: 'Eggs', quantity: 3, unit: 'units' },
@@ -14,6 +15,7 @@ export const recipes = [
 	{
 		id: 2,
 		recipe_name: 'Chicken Salad',
+		img: 'https://thegirlonbloor.com/wp-content/uploads/2022/06/buffalo-chicken-salad-8.jpg',
 		classification: 'Lunch',
 		ingredients: [
 			{ name: 'Chicken', quantity: 200, unit: 'g' },
@@ -29,6 +31,7 @@ export const recipes = [
 	{
 		id: 3,
 		recipe_name: 'Grilled Salmon with Rice',
+		img: 'https://www.erinliveswhole.com/wp-content/uploads/2022/07/grilled-salmon-with-coconut-rice-12.jpg',
 		classification: 'Dinner',
 		ingredients: [
 			{ name: 'Salmon', quantity: 200, unit: 'g' },
@@ -42,6 +45,7 @@ export const recipes = [
 	{
 		id: 4,
 		recipe_name: 'Peanut Butter & Banana Toast',
+		img: 'https://40aprons.com/wp-content/uploads/2014/03/peanut-butter-banana-toast-1-1.jpg',
 		classification: 'Snack',
 		ingredients: [
 			{ name: 'Bread', quantity: 2, unit: 'slices' },
@@ -53,6 +57,7 @@ export const recipes = [
 	{
 		id: 5,
 		recipe_name: 'Chocolate and Strawberry Smoothie',
+		img: 'https://www.elizabethrider.com/wp-content/uploads/2023/02/GL0A2698-scaled.jpg',
 		classification: 'Dessert',
 		ingredients: [
 			{ name: 'Strawberry', quantity: 1, unit: 'cup' },
@@ -65,6 +70,7 @@ export const recipes = [
 	{
 		id: 6,
 		recipe_name: 'Pasta Primavera',
+		img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeLuJsmqKYQHH5pP1hFmKSZ6fY1vh4D-1MiA&s',
 		classification: 'Lunch',
 		ingredients: [
 			{ name: 'Pasta', quantity: 1, unit: 'cup' },
@@ -80,6 +86,7 @@ export const recipes = [
 	{
 		id: 7,
 		recipe_name: 'Vegetable Stir-fry',
+		img: 'https://www.mccormick.com/-/media/project/oneweb/mccormick-us/mccormick/recipe-images/stir-fry-vegetables-recipe-800x800.jpg?rev=56e6eec8c7b14887a5c238eb35a20da9&vd=20240606T181334Z&extension=webp&hash=FF02DA13F3817A968D847A8A85B1E48D',
 		classification: 'Dinner',
 		ingredients: [
 			{ name: 'Broccoli', quantity: 1, unit: 'cup' },
@@ -94,6 +101,7 @@ export const recipes = [
 	{
 		id: 8,
 		recipe_name: 'Eggplant Parmesan',
+		img: 'https://www.tablefortwoblog.com/wp-content/uploads/2022/06/eggplant-parmesan-recipe-photo-tablefortwoblog-2-scaled.jpg',
 		classification: 'Dinner',
 		ingredients: [
 			{ name: 'Eggplant', quantity: 1, unit: 'unit' },
@@ -109,6 +117,7 @@ export const recipes = [
 	{
 		id: 9,
 		recipe_name: 'Lentil Soup',
+		img: 'https://www.themediterraneandish.com/wp-content/uploads/2022/01/spicy-lentil-soup-recipe-10.jpg',
 		classification: 'Dinner',
 		ingredients: [
 			{ name: 'Lentils', quantity: 1, unit: 'cup' },
@@ -124,6 +133,7 @@ export const recipes = [
 	{
 		id: 10,
 		recipe_name: 'Mango Smoothie',
+		img: 'https://www.cubesnjuliennes.com/wp-content/uploads/2021/04/Mango-Smoothie-Recipe.jpg',
 		classification: 'Snack',
 		ingredients: [
 			{ name: 'Mango', quantity: 1, unit: 'unit' },
@@ -134,6 +144,7 @@ export const recipes = [
 	{
 		id: 11,
 		recipe_name: 'Spinach and Feta Omelette',
+		img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8A9zPukNGJhBvHnlZif06LbeuzR0oeXkXcg&s',
 		classification: 'Breakfast',
 		ingredients: [
 			{ name: 'Eggs', quantity: 3, unit: 'units' },
@@ -147,6 +158,7 @@ export const recipes = [
 	{
 		id: 12,
 		recipe_name: 'Veggie Wrap',
+		img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_GPFMFEtnDQuI-KgCmNyFIVYNS6M_zqe_5Q&s',
 		classification: 'Lunch',
 		ingredients: [
 			{ name: 'Lettuce', quantity: 1, unit: 'cup' },
@@ -162,6 +174,7 @@ export const recipes = [
 	{
 		id: 13,
 		recipe_name: 'Grilled Chicken Tacos',
+		img: 'Grilled Chicken Tacos',
 		classification: 'Dinner',
 		ingredients: [
 			{ name: 'Chicken', quantity: 200, unit: 'g' },
@@ -177,6 +190,7 @@ export const recipes = [
 	{
 		id: 14,
 		recipe_name: 'Avocado Toast with Poached Eggs',
+		img: 'https://www.aberdeenskitchen.com/wp-content/uploads/2019/05/Avocado-Egg-Breakfast-Toast-FI-Thumbnail-1200X1200.jpg',
 		classification: 'Breakfast',
 		ingredients: [
 			{ name: 'Eggs', quantity: 2, unit: 'units' },
@@ -190,6 +204,7 @@ export const recipes = [
 	{
 		id: 15,
 		recipe_name: 'Chicken Caesar Salad',
+		img: 'https://s23209.pcdn.co/wp-content/uploads/2023/01/220905_DD_Chx-Caesar-Salad_051-500x500.jpg',
 		classification: 'Lunch',
 		ingredients: [
 			{ name: 'Chicken', quantity: 200, unit: 'g' },
@@ -205,6 +220,7 @@ export const recipes = [
 	{
 		id: 16,
 		recipe_name: 'Mango Chicken Stir-fry',
+		img: 'https://www.ambitiouskitchen.com/wp-content/uploads/2018/07/mangochicken-2long.jpg',
 		classification: 'Dinner',
 		ingredients: [
 			{ name: 'Chicken', quantity: 200, unit: 'g' },
@@ -221,6 +237,7 @@ export const recipes = [
 	{
 		id: 17,
 		recipe_name: 'Avocado and Chickpea Salad',
+		img: 'https://www.oliveandmango.com/images/uploads/2022_05_14_chickpea_avocado_salad_2.jpg',
 		classification: 'Lunch',
 		ingredients: [
 			{ name: 'Avocado', quantity: 1, unit: 'unit' },
@@ -237,6 +254,7 @@ export const recipes = [
 	{
 		id: 18,
 		recipe_name: 'Cheese and Spinach Stuffed Chicken',
+		img: 'https://www.spendwithpennies.com/wp-content/uploads/2024/05/Cropped-Spinach-and-Cheese-Stuffed-Chicken-Breasts-SpendWithPennies-25.jpg',
 		classification: 'Dinner',
 		ingredients: [
 			{ name: 'Chicken', quantity: 200, unit: 'g' },
@@ -251,6 +269,7 @@ export const recipes = [
 	{
 		id: 19,
 		recipe_name: 'Eggplant Stir-fry',
+		img: 'https://www.foodelicacy.com/wp-content/uploads/2020/09/brinjal-with-garlic-and-dried-shrimps-1.jpg',
 		classification: 'Dinner',
 		ingredients: [
 			{ name: 'Eggplant', quantity: 1, unit: 'unit' },
@@ -266,6 +285,7 @@ export const recipes = [
 	{
 		id: 20,
 		recipe_name: 'Tomato and Cheese Sandwich',
+		img: 'https://www.homecookingadventure.com/wp-content/uploads/2022/01/grilled_sandwich_main_image.jpg',
 		classification: 'Snack',
 		ingredients: [
 			{ name: 'Bread', quantity: 2, unit: 'slices' },
